@@ -33,3 +33,4 @@ C:\Users\ifera\Desktop\FinCoachProject\FinCoachAPI\obj\Debug\net10.0\refint\FinC
 C:\Users\ifera\Desktop\FinCoachProject\FinCoachAPI\obj\Debug\net10.0\FinCoachAPI.pdb
 C:\Users\ifera\Desktop\FinCoachProject\FinCoachAPI\obj\Debug\net10.0\FinCoachAPI.genruntimeconfig.cache
 C:\Users\ifera\Desktop\FinCoachProject\FinCoachAPI\obj\Debug\net10.0\ref\FinCoachAPI.dll
+C:\Users\ifera\Desktop\FinCoachProject\FinCoachAPI\bin\Debug\net10.0\Scalar.AspNetCore.dll
