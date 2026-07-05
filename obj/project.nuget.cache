@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "q14pTsiPG18=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\FinCoachAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ifera\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\ifera\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "'Microsoft.OpenApi' 2.0.0 paketinde önem derecesi yüksek olan bilinen bir https://github.com/advisories/GHSA-v5pm-xwqc-g5wc güvenlik açığı var",
+      "projectPath": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\FinCoachAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\FinCoachAPI.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

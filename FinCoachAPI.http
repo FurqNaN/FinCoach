@@ -1,0 +1,6 @@
+@FinCoachAPI_HostAddress = http://localhost:5244
+
+GET {{FinCoachAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
