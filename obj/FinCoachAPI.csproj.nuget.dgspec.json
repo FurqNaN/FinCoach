@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\FinCoachAPI.csproj": {}
+    "C:\\Users\\ifera\\Desktop\\FinCoach\\FinCoachAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\FinCoachAPI.csproj": {
+    "C:\\Users\\ifera\\Desktop\\FinCoach\\FinCoachAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\FinCoachAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ifera\\Desktop\\FinCoach\\FinCoachAPI.csproj",
         "projectName": "FinCoachAPI",
-        "projectPath": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\FinCoachAPI.csproj",
+        "projectPath": "C:\\Users\\ifera\\Desktop\\FinCoach\\FinCoachAPI.csproj",
         "packagesPath": "C:\\Users\\ifera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\obj\\",
+        "outputPath": "C:\\Users\\ifera\\Desktop\\FinCoach\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -56,6 +56,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.10, )"
             },
             "Scalar.AspNetCore": {
               "target": "Package",

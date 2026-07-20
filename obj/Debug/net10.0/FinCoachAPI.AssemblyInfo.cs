@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinCoachAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e48852ae7044d415d1a69080b906f14df9ca4b59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d9ec451c500bdec28092a4cc078c9d0978aa8d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinCoachAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinCoachAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

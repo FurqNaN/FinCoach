@@ -1,35 +1,78 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using FinCoachAPI.Models;
+﻿using FinCoachAPI.Models;
+using FinCoachAPI.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinCoachAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")] // Tarayıcıdan erişirken: api/user olacak
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        // Test
-        private static List<User> _users = new List<User>
-        {
-            new User { Id = 1, Name = "Kralım", Email = "furqnan@hotmail.com", IsPro = true, MonthlyIncome = 50000 },
-            new User { Id = 2, Name = "Test Kullanıcısı", Email = "test@mail.com", IsPro = false, MonthlyIncome = 15000 }
-        };
+        private readonly AppDbContext _context;
 
-        // 1. TÜM KULLANICILARI GETİR (GET api/user)
-        [HttpGet]
-        public ActionResult<IEnumerable<User>> GetAllUsers()
+        // Dependency Injection ile DbContext'i içeri alıyoruz
+        public UserController(AppDbContext context)
         {
-            return Ok(_users);
+            _context = context;
         }
 
-        // 2. YENİ KULLANICI EKLE (POST api/user)
-        [HttpPost]
-        public ActionResult<User> CreateUser([FromBody] User newUser)
+        
+        [HttpGet]
+        public async Task<IActionResult> GetAllUsers()
         {
-            // Basitçe yeni bir ID atayalım
-            newUser.Id = _users.Max(u => u.Id) + 1;
-            _users.Add(newUser);
+            var users = await _context.Users.ToListAsync();
+            return Ok(users);
+        }
 
-            return Ok(newUser);
+       
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetUserById(int id)
+        {
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+                return NotFound("Kullanıcı bulunamadı.");
+
+            return Ok(user);
+        }
+
+       
+        [HttpPost]
+        public async Task<IActionResult> CreateUser([FromBody] User user)
+        {
+            
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetUserById), new { id = user.Id }, user);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] User updatedUser)
+        {
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+                return NotFound("Güncellenecek kullanıcı bulunamadı.");
+
+           
+            user.Name = updatedUser.Name;
+            
+
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+       
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteUser(int id)
+        {
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+                return NotFound("Silinecek kullanıcı bulunamadı.");
+
+            _context.Users.Remove(user);
+            await _context.SaveChangesAsync();
+            return Ok("Kullanıcı başarıyla silindi.");
         }
     }
 }

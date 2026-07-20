@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\ifera\\Desktop\\FinCoach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoachproject\\fincoachapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoachproject\\fincoachapi\\controllers\\expensecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:controllers\\expensecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoachproject\\fincoachapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoach\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoachproject\\fincoachapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoach\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoach\\controllers\\expensecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:controllers\\expensecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoach\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoachproject\\fincoachapi\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|c:\\users\\ifera\\desktop\\fincoach\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4BAA94-815B-5DC0-B987-9B6007306419}|FinCoachAPI.csproj|solutionrelative:models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,53 +38,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExpenseControllers.cs",
-              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Controllers\\ExpenseControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\ExpenseControllers.cs",
-              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Controllers\\ExpenseControllers.cs",
-              "RelativeToolTip": "Controllers\\ExpenseControllers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T22:08:30.809Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoach\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoach\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-20T16:19:06.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoach\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoach\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-05T21:56:46.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoach\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoach\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T21:53:53.738Z"
+              "WhenOpened": "2026-07-05T21:53:53.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoach\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoach\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T16:17:17.108Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ExpenseControllers.cs",
+              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoach\\Controllers\\ExpenseControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExpenseControllers.cs",
+              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoach\\Controllers\\ExpenseControllers.cs",
+              "RelativeToolTip": "Controllers\\ExpenseControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T22:08:30.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Expense.cs",
-              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Models\\Expense.cs",
+              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoach\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "Models\\Expense.cs",
-              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoach\\Models\\Expense.cs",
               "RelativeToolTip": "Models\\Expense.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\ifera\\Desktop\\FinCoach\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoachProject\\FinCoachAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ifera\\Desktop\\FinCoach\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
